@@ -1,0 +1,50 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n;
+    int digit;
+    int original = n;
+    vector<int> arr;
+
+    while(n != 0){
+        digit = n % 10;
+        arr.push_back(digit);
+        n = n / 10;
+    }
+
+    bool complete = true;
+    for(int i = 0; i < arr.size(); i++){
+        if(!(arr[i] == 2 || arr[i] == 3 || arr[i] == 5 || arr[i] == 7)){
+            complete = false;
+            break;
+        }
+    }
+
+    bool isprime = true;
+    if(original <= 1){
+        isprime = false;
+    }
+    else{
+        for(int i = 2; i * i <= original; i++){
+            if(original % i == 0){
+                isprime = false;
+                break;
+            }
+        }
+    }
+    
+    if(isprime && complete){
+        cout << "Prime (Complete Prime)";
+    }
+    else if(isprime && !complete){
+        cout << "Prime but not Complete Prime";
+    }
+    else{
+        cout << "Not Prime";
+    }
+
+    return 0;
+}
