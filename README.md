@@ -2,23 +2,12 @@
 
 Welcome to the **Coding_Cpp** repository—a comprehensive collection of C++ solutions and data structure/algorithm implementations. This project is organized by topic and is ideal for students, competitive programmers, and anyone looking to improve their understanding of C++ and classic algorithmic problems.
 
-## 📁 Folder Structure
+## 📁 Overview
 
-The repository is structured by data structure category or problem type. Below is a high-level overview:
+This repository collects hundreds of C++ source files organized around common data structures, algorithms and problem‑solving patterns. Topics include arrays, strings, trees, graphs, linked lists, heaps, maps/sets, recursion, sorting, and many more generalized algorithmic themes.
 
-- `Array_1/` & `Array_2/`: Various array manipulation and algorithmic problems.
-- `Binary Search/`: Examples of binary search applications.
-- `Binary Search Tree/`, `Binary Tree/`: Tree traversals and operations.
-- `Double Linked List/`, `Linked List/`: Linked list implementations and exercises.
-- `Heap/`: Heap operations, conversions, and related problems.
-- `Map/`, `maps_and_sets/`: Usage of STL maps and sets, frequency/count problems.
-- `Math/`: Mathematical puzzles and arithmetic algorithms.
-- `Recursion/`, `Sorting/`, `Stack/`, `Stack Question/`: Algorithmic challenges by topic.
-- `String 1/`, `String 2/`: String manipulation problems.
-- `Vector/`: Vector related exercises.
-- `DSA/`: Contains playlist resources and more advanced DSA examples, e.g., `Striver Dsa Playlist/`.
+> 🛠 Each directory groups related exercises; all of them are implemented in `.cpp` files that can be compiled and run independently for practice or study.
 
-> 🛠 Each folder contains `.cpp` files implementing solutions to classical coding problems, useful for reference and practice.
 
 ## ⚙️ Usage
 
